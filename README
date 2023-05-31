@@ -1,0 +1,34 @@
+    The objective of this project is to design, develop, and implement a promotional website for Ivy Games to advertise their upcoming new tabletop RPG, 
+Caverns and Creatures. The main features include a personality quiz which will recommend a class and race to the user, 
+information about the game, a newsletter sign-up, and the ability to purchase the game.
+    Constraints of the project include a deadline of November 27, the experience of the development team, and the limits inherent with programming in 
+HTML and CSS. Another constraint being the team must remain flexible enough to respond to any change requests made by Ivy Games during the development 
+process.
+    Promotional website will run within a browser on a personal computer.  Users will require internet access and standard software for accessing 
+websites only.  development teams will require means to write HTML, CSS, and Javascript code and access to gitHub and Google drive for sharing work.
+
+
+
+_______________________________________________________________________________________________
+links for original pictures:
+preorder.jpg source: https://i.pinimg.com/originals/dc/51/71/dc517199e8f02584a32ca881fdc5a468.jpg
+
+Preorder Background Image (line 32 in style.css): https://getwallpapers.com/wallpaper/full/7/c/d/592661.jpg
+
+Page Body Background Image (line 7 in style.css): https://assets.wallpapersin4k.org/uploads/2017/04/Old-Parchment-Wallpaper-12.jpg
+
+parchment.jpg: https://www.bing.com/images/search?view=detailV2&ccid=FEa55zmi&id=59722E78E152AD48391A4CDD698FFB67CF78FFB6&thid=OIP.FEa55zmijse0NHmxvXTO1wHaIb&mediaurl=https%3A%2F%2Fpng.pngtree.com%2Fback_origin_pic%2F03%2F87%2F85%2F28d323ee572e04f3b76acb9ff9836e84.jpg&exph=2906&expw=2551&q=Parchment+Background&simid=608033259295239130&form=IRPRST&ck=7DB0B6D39FEFC3204C255F257C1AF482&selectedindex=8&ajaxhist=0&ajaxserp=0&vt=0&sim=11&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.1446b9e739a28ec7b43479b1bd74ced7%3Frik%3Dtv94z2f7j2ndTA%26pid%3DImgRaw%26r%3D0
+
+characters.jpg source: https://space4games.com/wp-content/uploads/Titelbild_Pathfinder-Kingmaker_Begleiter_S4G.jpg
+
+buriedRiun: https://wallpapercave.com/wp/xugGCHw.jpg
+
+homeButton source: https://ae01.alicdn.com/kf/HTB10yEFNVXXXXXgaFXXq6xXFXXXo/digital-art-fantasy-art-nature-landscape-water-rock-hill-mountain-island-trees-4-Sizes-Home-Decoration.jpg_640x640.jpg
+
+warrior symbol: https://i.pinimg.com/originals/1c/8c/53/1c8c53cb7b46b9011bf0cdb26a6e60ff.jpg
+
+cleric symbol: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1865c849-3198-4cc2-a1b3-840790c063bc/d13zxf4-8e6779ee-12d7-4173-967b-fc85863d883f.jpg/v1/fill/w_1024,h_768,q_75,strp/blue_rune_by_sabakku_no_gaara_d13zxf4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvMTg2NWM4NDktMzE5OC00Y2MyLWExYjMtODQwNzkwYzA2M2JjXC9kMTN6eGY0LThlNjc3OWVlLTEyZDctNDE3My05NjdiLWZjODU4NjNkODgzZi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C4GbJNlXhhWshl3IN-gFTC0AGjNwsUOjnCENBauWmVg
+
+chaplain symbol: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c1d0a97a-1b59-4937-b477-484d49423bcc/d2qce8h-36a5f201-e680-4aac-8644-ee77d01baaa0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jMWQwYTk3YS0xYjU5LTQ5MzctYjQ3Ny00ODRkNDk0MjNiY2MvZDJxY2U4aC0zNmE1ZjIwMS1lNjgwLTRhYWMtODY0NC1lZTc3ZDAxYmFhYTAuanBnIn1dXX0.H-hgW1pvw-Vle5o23GilKXenovkWRC4u6Gajx4wxydc
+
+All rights belong to respective owners of the third-party media used within this project. No copyright infringement intended. Used for educational purposes only.

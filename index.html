@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			SDEV 265 Final Project
+
+			Author: 	Ben Webb, Tyler Smekens, Jeff Longsworth
+
+			Date:   	11/26/2022
+
+			Filename: index.html
+		-->
+		<meta charset="utf-8" >
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Caverns and Creatures</title>
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico" >
+		<link rel="stylesheet" href="css/style.css" >
+		<style>
+			ul li {
+				display: inline;
+				text-align: center;
+			}
+		</style>
+
+	</head>
+
+	<!--
+		The main page of the site will introduce customers to Ivy Games and the Caverns and Creatures game.
+	-->
+    <!--
+        Where is the main element? We may want to make it a parent of the div or article elements
+	-->
+	<body class="indexBody">
+		<header>
+				<div class="pageTop">
+					<h1>Caverns and Creatures</h1>
+					<h5>Ivy Games</h5>
+					<hr class="sep-3"/>
+					<nav>
+						<ul>
+							<li> <a href="index.html">Home</a> </li>
+			        <li> <a href="quiz.html">Quiz</a> </li>
+			        <li> <a href="preorder.html">Order</a> </li>
+							<li> <a href="browseCharacters.html">Class List</a> </li>
+						</ul>
+					</nav>
+				</div>
+		</header>
+		<!--
+            Create the navigation bar *WIP*
+		-->
+
+		<div class="main">
+            <!--
+                Create a short blurb explaining the website
+			-->
+			<article class="cursive">
+				<h4>Welcome</h4>
+				<p>Hello, and welcome to the homepage for the <i>Caverns and Creatures</i> website!
+                    Here you can find some information regarding the upcoming game, try the
+                    personality quiz to get an idea of what race and class is right for
+                    your character, pre-order the game, and more.
+				</p>
+			</article>
+
+
+            <!--
+                Display a description of the game so the user can learn more about it
+			-->
+            <article class="cursive">
+                <h4>Game Description:</h4>
+
+                <p>In <i>Caverns and Creatures</i>, embark on an adventure under the wing of your
+                    Lore-Master or with one of our trained and experienced team members at
+                    in person or online live events with Ivy Games.  Immerse yourself in a
+				magical world that has been enraptured by an ancient curse.  </p>
+                <p><i>Caverns and Creatures</i> takes players into the winding depths of the
+                    buried old world in search of solutions to a blight on the world of
+                    Sandalia.  Magic once fueled the blossom of a prosperous golden age
+                    for the diverse races of the world, but that magic has begun to tear
+                    at the world, creating tears in reality allowing denizens of strange
+                    and often hostile realms to warp the world around them.  Those with
+                    access to protective magic retreated into safe isolation leaving most
+                    to fend for themselves without the means to combat the changing world.
+                    <br>
+                    Journey deep underground with your intrepid companions to uncover the
+                    mysteries of the old world in search of the lost history of the old ones.
+                    The mysteries of the corrupted ruins of the golden age may hold the key
+
+				to restoring the world to peace and prosperity. </p>
+			</article>
+
+            <!--
+                Create space for user to sign up for newsletter w/ email
+			-->
+            <article>
+
+				<h4 id="emailLabel">
+					Sign up for our newsletter to receive the latest updates on
+					<i>Caverns and Creatures</i>!
+					<br>
+				</h4>
+                <form id="newsletterRequest" action="newsletterconfirm.html" novalidate="novalidate">
+
+                    <fieldset id="emailEntry">
+
+						<div id="errorEmail"></div>
+                        <label for="newsEmail">Email:</label><br>
+                        <input type="email" id="newsEmail" name="newsletterEmail">
+                        <!--
+                            Code either a button or submit input for submitting
+                            the information below this comment
+						-->
+						<input type="submit" value="Sign Up" id="submitButton" >
+					</fieldset>
+					<div id="emailSuccess" hidden=true><b>Newsletter registration successful! Thank you for signing up.</b></div>
+				</form>
+			</article>
+
+		</div>
+
+		<footer>
+			<p>-WIP- By Jeffery Longsworth, Tyler Smekens, & Ben Webb
+				<br>
+				Solely for educational purposes.
+			</p>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+
+</html>
+
+<!--
+	Updates:
+    (11-26)
+    -Changed nav contents to suit css contents
+    -style.css & index.js now referenced
+    -Added welcome header to 1st article (L 47)
+    -Article headers now a h4 element instead of p (L 47, 58)
+
+	(11/14)
+	-Added newsletter section. Must decide if submit button should be a
+	regular "button" input or "submit" input for submitting
+
+	(11/28)
+	-Added a favicon
+
+	Recommendations:
+	CSS
+	-Let's try wrapping the main page content so that it's no longer reaching
+	across the entire width of the page
+	-Navigation bar: decide whether to keep vertical or change to horizontal
+	-Give footer a little space from the end of the main page content & bottom
+	of page. Also consider centering its content (same for horizontal Nav bar)
+
+	JavaScript
+	-Scripting for newsletter section to verify a correct email address
+	is entered
+
+	HTML
+	-Create new page as confirmation of newsletter registration
+
+-->

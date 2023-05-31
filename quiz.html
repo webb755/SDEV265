@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			SDEV 265 Final Project
+
+			Author: 	Ben Webb, Tyler Smekens, Jeff Longsworth
+
+			Date:   	12/1/2022
+
+			Filename: quiz.html
+		-->
+		<meta charset="utf-8" >
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Caverns and Creatures</title>
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico" >
+		<link rel="stylesheet" href="css/style.css" >
+
+	</head>
+
+
+	<body class="quizBody">
+		<header>
+			<h1>Caverns and Creatures</h1>
+			<h5>Ivy Games</h5>
+			<nav>
+	      <ul>
+					<li> <a href="index.html">Home</a> </li>
+	        <li> <a href="quiz.html">Quiz</a> </li>
+	        <li> <a href="preorder.html">Order</a> </li>
+					<li> <a href="browseCharacters.html">Class List</a> </li>
+				</ul>
+			</nav>
+			<img class="navImage" src="css\pictures\characters.jpg" alt="navImage">
+		</header>
+
+		<div class="quizMain">
+			<div class="quizBox">
+				<!--<img src="css/pictures/characters.jpg" alt="character-pictures" >-->
+				<form id="questions" novalidate="novalidate">
+					<fieldset class="quizFields">
+							<!--
+								The following questions will determine the user's class.
+							-->
+							<h4 id="questionLabel">Start the quiz to find your ideal class and race combination:</h4>
+							<input type="radio" name="answer" id="answer1" value="1" hidden>
+							<label id="answer1Label" for="answer1"></label><br>
+							<input type="radio" name="answer" id="answer2" value="2" hidden>
+							<label id="answer2Label" for="answer1"></label><br>
+							<input type="radio" name="answer" id="answer3" value="3" hidden>
+							<label id="answer3Label" for="answer1"></label><br>
+
+							<input type="submit" value="Start Quiz" id="submitButton" >
+						</fieldset>
+					</form>
+
+				<div id="quizResults" hidden=true>
+					<table>
+						<thead>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img id="imageOne" src="" height="400" alt="" hidden=true></td>
+								<td style="padding: 0, 5px">
+									<b id="quizCharResult" ></b><br><br>
+									<b id="quizRaceResult" ></b><br>
+								</td>
+								<td><img id="imageTwo" src="" height="400" alt="" hidden=true></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+
+		</div>
+
+		
+		<footer id="quizFooter">
+			<p>-WIP- By Jeffery Longsworth, Tyler Smekens, & Ben Webb
+				<br>
+				Solely for educational purposes.
+			</p>
+		</footer>
+		<script src="quiz.js"></script>
+	</body>
+</html>
+<!--
+	Updates:
+	(11/4) Tidied the code a bit & added a submit button to the end of
+	the quiz. Everything else is relatively the same
+	-Added the character race-related portion of the quiz (L 167-228)
+	-Like last update, please note that this is not the definitive quiz format,
+	I remember we talked about possibly showing only one question
+	onscreen, etc; we can change this how we seet fit, it's just to
+
+	give a rudimentary idea as to how the quiz *could* look like.
+
+	(11/18) Removed a lot of the markup for the questions and added it into quiz.js to make
+	for a more dynamic quiz experience.
+
+	(?) JavaScript referenced. Quiz format edited.
+
+	(11/27)
+	CSS referenced. Nav contents changed to make use of new pictures.
+	Divs added to end of quiz to insert & display chosen results at end
+	of quiz.
+
+	(11/28)
+	-Added a favicon
+
+
+	Recommendations:
+	-When we get around to calculating the quiz answers, it may be best to
+	tally up the number of times one question is answered (create
+	3 variables and code the quiz to tally them up each time there's
+	an answer, for example answering question 1 with answer 1 would make
+	"q1Total" +1, etc. Then after calculating them we'll compare them to each
+	other)
